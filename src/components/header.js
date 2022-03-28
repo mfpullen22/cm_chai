@@ -13,7 +13,7 @@ function Header() {
         position: 'relative',
         backgroundColor: 'grey.800',
         color: '#fff',
-        mb: 4,
+        mb: 0,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
@@ -29,23 +29,25 @@ function Header() {
           bottom: 0,
           right: 0,
           left: 0,
-          backgroundColor: 'rgba(0,0,0,.3)',
+          backgroundColor: 'rgba(0,0,0,.6)',
+          m: 0,
         }}
       />
       <Grid container>
-        <Grid item md={6}>
+        <Grid item md={12}>
           <Box
             sx={{
               position: 'relative',
-              p: { xs: 3, md: 6 },
+              p: { xs: 12, md: 12 },
               pr: { md: 0 },
+              m: 0,
             }}
           >
             <Typography component="h1" variant="h3" color="inherit" gutterBottom>
               Cryptococcal Meningitis Repository
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
-              Up-to-date information for diagnosing and managing cryptococcal meningitis
+              A central source for information on cryptococcal meningitis
             </Typography>
           </Box>
         </Grid>

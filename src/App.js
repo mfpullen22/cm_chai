@@ -5,6 +5,10 @@ import Home from "./components/home";
 import Guidelines from "./components/guidelines";
 import Map from "./components/map";
 import Footer from './components/footer';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
 
 
