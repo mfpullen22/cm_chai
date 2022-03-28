@@ -6,10 +6,10 @@ import Link from '@mui/material/Link';
 
 function Footer() {
     return (
-        <Box component="footer" sx={{width: "100%", color: "white", bgcolor: '#1976d2', py: 4, position: "fixed", bottom: 0}}>
+        <Box component="footer" sx={{width: "100%", color: "white", bgcolor: '#1976d2', py: 1, position: "fixed", bottom: 0}}>
         <Container maxWidth="lg">
             <Typography variant="h6" align="center" gutterBottom>
-            Support by the University of Minnesota and the Clinton Health Access Initiative
+            Supported by the University of Minnesota and the Clinton Health Access Initiative
             </Typography>
             <Typography
             variant="subtitle1"
