@@ -9,39 +9,50 @@ function Home() {
     <div>
     <Header />
       <Grid container>
-        <Grid item md={6}>
+        <Grid item md={4}>
           <Box
             sx={{
               position: 'relative',
-              height: "100%",
-              width: "100%",
               p: { xs: 3, md: 6 },
               pr: { md: 0 },
               m: {md: 0},
-              background: "rgb(173, 217, 244)",
+              background: "white",
             }}
           >
-            <Typography component="h1" variant="h5" color="inherit" gutterBottom>
+            <Typography component="h4" variant="h4" color="inherit" gutterBottom>
               A global disease with global implications
-            </Typography>
-            <Typography variant="h5" color="inherit" paragraph>
-              A central source for information on cryptococcal meningitis
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={6}>
-        <Box
-            sx={{
-              position: 'relative',
-              height: "100%",
-              width: "100%",
-              p: { xs: 3, md: 6 },
-              pr: { md: 0 },
-              m: {md: 0} ,
-              background: "rgb(173, 217, 244)",
-            }}
-          >
-        </Box>
+        <Grid item md={4}>
+            <Box
+                sx={{
+                position: 'relative',
+                p: { xs: 3, md: 6 },
+                pr: { md: 0 },
+                m: {md: 0} ,
+                background: "white",
+                }}
+            >
+                <Typography component="h6" variant="h6" color="inherit">
+                    Cryptococcal meningitis is the cause of 15% of AIDS-related deaths worldwide.
+                </Typography>
+            </Box>
+        </Grid>
+        <Grid item md={4}>
+            <Box
+                sx={{
+                position: 'relative',
+                p: { xs: 3, md: 6 },
+                pr: { md: 0 },
+                m: {md: 0} ,
+                background: "white",
+                }}
+            >
+                <Typography component="h6" variant="h6" color="inherit" paragraph>
+                    Annually, this amounts to over 180,000 deaths globally.
+                </Typography>
+            </Box>
         </Grid>
       </Grid>
     </div>

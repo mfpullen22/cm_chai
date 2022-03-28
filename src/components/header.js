@@ -13,7 +13,7 @@ function Header() {
         position: 'relative',
         backgroundColor: 'grey.800',
         color: '#fff',
-        mb: 0,
+        mb: 4,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
