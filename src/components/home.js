@@ -4,6 +4,8 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
+//https://www.airbnb.com/d/designhost
+
 function Home() {
     return (
     <div>
@@ -37,6 +39,7 @@ function Home() {
                 <Typography component="h6" variant="h6" color="inherit">
                     Cryptococcal meningitis is the cause of 15% of AIDS-related deaths worldwide.
                 </Typography>
+                <Typography></Typography>
             </Box>
         </Grid>
         <Grid item md={4}>
