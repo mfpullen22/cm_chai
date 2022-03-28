@@ -2,8 +2,12 @@ import React from 'react';
 import { MapContainer, GeoJSON } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import "./cryptomap.css";
+import data from "../data/cryptodataDec2021.json";
 
 function CryptoMap({countries}) {
+    for(var i = 0; i < data.length; i++) {
+        console.log(data[i]["ISO"])
+    }
 
     const mapStyle = {
         fillColor:"white",

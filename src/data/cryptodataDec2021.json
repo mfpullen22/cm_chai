@@ -1,5 +1,4 @@
-{
-"data" : [
+[
  {
    "country": "Afghanistan",
    "ISO": "AFG",
@@ -4281,4 +4280,3 @@
    "total_crag_pos_cm_deaths": ""
  }
 ]
-}
