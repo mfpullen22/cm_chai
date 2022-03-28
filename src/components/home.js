@@ -5,6 +5,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
 //https://www.airbnb.com/d/designhost
+//https://coolors.co/
 
 function Home() {
     return (
