@@ -67,9 +67,8 @@ function Home() {
             </Box>
         </Grid>
       </Grid>
-      <Grid container direction="row" justifyContent="space-evenly" alignitems="center">
-
-        <Grid item md={3}>
+      <Grid container direction="row" justifyContent="center" alignitems="center" spacing={12}>
+        <Grid item>
           <Card sx={{ maxWidth: 345, mb: 10 }}>
             <CardMedia
               component="img"
@@ -94,7 +93,7 @@ function Home() {
             </CardActions>
           </Card>
         </Grid>
-        <Grid item md={3}>
+        <Grid item>
           <Card sx={{ maxWidth: 345, mb: 10}}>
               <CardMedia
                 component="img"
@@ -119,7 +118,6 @@ function Home() {
               </CardActions>
             </Card>
         </Grid>
-
       </Grid>
     </div>
     );
