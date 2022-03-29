@@ -62,7 +62,7 @@ function Home() {
                 }}
             >
                 <Typography component="h6" variant="h6" color="inherit" paragraph>
-                    Sub-Saharan Africa is disproportioantely affected, both in number of cryptococcal meningitis cases and deaths.
+                    Sub-Saharan Africa is disproportionately affected, both in number of cryptococcal meningitis cases and deaths.
                 </Typography>
             </Box>
         </Grid>
