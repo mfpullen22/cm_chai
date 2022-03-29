@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CryptoMap from './cryptomap';
 import Legend from "./legend";
-import features from "../data/countries.json";
+//import features from "../data/countries.json";
 
 function Map() {
     //const[countries, setCountries] = useState([]);

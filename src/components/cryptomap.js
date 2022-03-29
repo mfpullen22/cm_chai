@@ -2,7 +2,7 @@ import React from 'react';
 import { MapContainer, GeoJSON } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import "./cryptomap.css";
-import data from "../data/cryptodataDec2021.json";
+//import data from "../data/cryptodataDec2021.json";
 import features from "../data/countries.json";
 
 function CryptoMap() {

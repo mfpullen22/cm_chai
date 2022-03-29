@@ -6,7 +6,7 @@ import Link from '@mui/material/Link';
 
 function Footer() {
     return (
-        <Box component="footer" sx={{width: "100%", color: "white", bgcolor: 'rgb(88, 107, 164)', py: 1, position: "fixed", bottom: 0}}>
+        <Box component="footer" sx={{width: "100%", color: "white", bgcolor: 'rgb(88, 107, 164)', py: 1, bottom: 0}}>
         <Container maxWidth="lg">
             <Typography variant="h6" align="center" gutterBottom>
             Supported by the University of Minnesota and the Clinton Health Access Initiative
